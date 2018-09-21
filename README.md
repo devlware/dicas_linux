@@ -160,3 +160,18 @@ gnome-shell-extension-installer
     },
 }
 ```
+
+
+Dicas de Git
+
+Para adicionar uma tag:  
+git tag -a v1.1.0 -m "Atualização tag para demo"
+
+Para enviar a tag para o remove:  
+git push origin v1.1.0
+
+Para remover uma tag localmente:  
+git tag -d demo-02
+
+Para enviar a remoção da tag para o remote:  
+git push origin :refs/tags/demo-02
